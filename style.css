@@ -1,0 +1,61 @@
+body {
+  background: black;
+  font-size: 20px;
+  margin: 80px 200px;
+}
+#super {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: flex-start;
+  padding-top: 10px;
+  height: 800px;
+
+  background: white;
+  color: black;
+}
+
+#super div article {
+  justify-content: space-between;
+  text-align: center;
+  font-size: small;
+  width: 110px;
+
+  border: 1px solid gray;
+  height: 200px;
+
+  align-content: flex-start;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 1rem;
+  padding: 1em;
+  outline-offset: 0.5rem;
+}
+
+#super div {
+  padding: 20px;
+  display: flex;
+
+  justify-content: space-around;
+  border: black;
+  border-radius: 10px;
+  background: white;
+
+  color: black;
+  height: 300px;
+  width: 300px;
+  flex-direction: row;
+  align-content: flex-start;
+  text-align: center;
+}
+#super img {
+  height: 80px;
+  width: 80px;
+}
+
+#score {
+  text-align: center;
+  align-content: flex-start;
+  padding-top: 5px;
+  font-size: 30px;
+}
